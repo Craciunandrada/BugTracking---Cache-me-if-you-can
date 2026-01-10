@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.sqlite
+database.sqlite 
+.vs/
+*.suo
+*.user
+*.bak
