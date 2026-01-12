@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.container {
+    padding: 40px;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 280px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.proiect-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.bug-form-container {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 450px;
+    background-color: #f9f9f9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .bug-form-container textarea {
+        width: 100%;
+        height: 80px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .bug-form-container select {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+.bug-list-container {
+    margin-top: 30px;
+}
+
+.bug-item {
+    background: white;
+    border: 1px solid #eee;
+    padding: 12px;
+    margin-bottom: 8px;
+    list-style: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.priority-mare {
+    color: red;
+    font-weight: bold;
+}
+
+.priority-medie {
+    color: orange;
+    font-weight: bold;
+}
+
+.priority-mica {
+    color: green;
+    font-weight: bold;
+}
+
+.btn-logout {
+    margin-top: 40px;
+    padding: 10px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    cursor: pointer;
 }
