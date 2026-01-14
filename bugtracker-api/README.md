@@ -1,3 +1,5 @@
+https://bugtracking-cache-me-if-you-can.onrender.com
+
 Aplicatie web pentru gestionarea rezolvarii bug-urilor
 
 Introducere
