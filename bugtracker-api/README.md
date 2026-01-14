@@ -121,3 +121,9 @@ id_bug NUMBER(4)
 mesaj VARCHAR2(255)
 data_notificare DEFAULT SYSDATE
 
+Tehnologii utilizate
+
+Aplicația utilizează un backend dezvoltat în Node.js, care oferă un mediu de execuție JavaScript pe server, împreună cu Express.js, un framework ce permite crearea rapidă și structurată a unui API REST. Pentru interacțiunea cu baza de date este folosit ORM-ul Sequelize, iar ca sistem de gestiune a datelor este utilizată SQLite, o bază de date relațională locală, potrivită pentru proiecte de dimensiuni mici și medii.
+Autentificarea utilizatorilor este realizata cu ajutorul JSON Web Tokens, iar parolele sunt protejate prin bcrypt, folosind hashing securizat. Configurarea aplicației și gestionarea datelor sensibile se face prin intermediul fișierelor .env, folosind librăria dotenv. Comunicarea dintre frontend și backend este permisă prin utilizarea mecanismului CORS, care rezolvă problemele de securitate legate de cererile între origini diferite.
+Partea de frontend este realizată cu React, care oferă o interfață de utilizator dinamică și interactivă. Comunicarea cu backend-ul se face folosind Axios, o librărie care trimite cereri HTTP și primește răspunsuri în format JSON.
+Pentru gestionarea dependențelor este folosit npm, iar în timpul dezvoltării aplicația poate fi rulată automat cu nodemon, care repornește serverul la modificarea codului. Codul sursă este versionat folosind Git, iar proiectul este găzduit pe GitHub.
